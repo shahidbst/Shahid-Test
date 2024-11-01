@@ -1,0 +1,71 @@
+Here’s a list of common types of sensitive or personally identifiable information (PII) often used in testing environments, along with dummy examples for each:
+
+### 1. **Name**
+   - **Dummy Example**: John Doe, Jane Smith
+
+### 2. **Social Security Numbers (SSN) / National Identification Numbers**
+   - **U.S. SSN**: 123-45-6789
+   - **Other Formats**: You can use formats specific to other countries but avoid real numbers. For example, UK National Insurance Number: QQ123456C
+
+### 3. **Address**
+   - **Dummy Address**: 123 Main St, Springfield, IL 62701, USA
+   - **International Example**: 742 Evergreen Terrace, Springfield, Australia
+
+### 4. **Postal Codes**
+   - **U.S.**: 12345 or 12345-6789
+   - **International**: SW1A 1AA (UK), K1A 0B1 (Canada)
+
+### 5. **Date of Birth**
+   - **Dummy Examples**: 01/01/1990, 31/12/1980
+
+### 6. **Credit Card Numbers** (test cards)
+   - **Visa**: 4111 1111 1111 1111
+   - **MasterCard**: 5555 5555 5555 4444
+   - **Discover**: 6011 0009 9013 9424
+
+### 7. **Bank Account Numbers**
+   - **Dummy Format**: 0123456789 (use 10-12 digits depending on format requirements)
+   - **International Bank Account Number (IBAN)**: GB33BUKB20201555555555 (UK IBAN format)
+
+### 8. **Routing Numbers**
+   - **U.S. Routing Number**: 021000021 (for testing purposes only)
+
+### 9. **Email Addresses**
+   - **Dummy Emails**: test@example.com, demo@sample.com, user123@domain.com
+
+### 10. **Phone Numbers**
+   - **U.S. Format**: +1-555-555-5555
+   - **UK Format**: +44 7700 900000
+   - **International Format**: +99 1234567890 (where +99 is a placeholder country code)
+
+### 11. **Driver's License Numbers**
+   - **U.S. Format (California)**: D1234567
+   - **Generic Format**: DL-123-456-789
+
+### 12. **Tax Identification Number (TIN)**
+   - **U.S. Format**: 12-3456789
+
+### 13. **Passport Numbers**
+   - **Generic Format**: A1234567 (use country-specific placeholders if needed)
+
+### 14. **Medical Record Numbers**
+   - **Generic Format**: MR123456789
+
+### 15. **License Plate Numbers**
+   - **Generic Format**: ABC-1234
+
+### 16. **Employee IDs**
+   - **Generic Format**: EMP123456, 123456
+
+### 17. **IP Addresses**
+   - **IPv4 Format**: 192.0.2.0, 203.0.113.0
+   - **IPv6 Format**: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+### 18. **MAC Addresses**
+   - **Dummy MAC**: 00:0a:95:9d:68:16
+
+### 19. **Username and Password**
+   - **Username**: johndoe, janedoe
+   - **Password**: Password123, Test@2024
+
+These are examples of dummy data commonly used to simulate realistic entries without compromising any actual sensitive data. Always avoid real data in testing environments and use anonymized or obfuscated information wherever possible.
